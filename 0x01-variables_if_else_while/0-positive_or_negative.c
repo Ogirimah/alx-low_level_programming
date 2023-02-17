@@ -6,7 +6,6 @@
 /* betty style doc for function main goes there */
 /**
  * main - Prints a random number
- * @n: random number to be printed
  *
  * Return: The number and states if it is +ve, -ve or 0
  */
