@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
   * main - Use _putchar to print alphabet in lowercase followd by newline
   *
@@ -7,12 +7,10 @@
 int main(void)
 {
 	char a[] = "_putchar";
+	char* n = "\n";
 
-	for (int i = 0; i < strlen(a); i++)
-	{
 
-		putchar(a[i]);
-	}
-	putchar("\n");
+	callprint(a);
+	callprint(n);
 	return (0);
 }
