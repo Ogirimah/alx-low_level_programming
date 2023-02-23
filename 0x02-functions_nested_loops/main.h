@@ -1,2 +1,3 @@
 #include <stdio.h>
-int callprint(char a[]);
+#include <string.h>
+int putchar(int n);

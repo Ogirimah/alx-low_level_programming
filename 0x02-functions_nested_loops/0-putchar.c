@@ -10,7 +10,7 @@ int main(void)
 	char* n = "\n";
 
 
-	callprint(a);
-	callprint(n);
+	putchar(a);
+	putchar(n);
 	return (0);
 }
