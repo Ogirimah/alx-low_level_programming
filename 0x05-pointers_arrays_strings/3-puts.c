@@ -5,7 +5,7 @@
   * @str: String to be printed
   * Return: Always void
   */
-void _puts(char *str)
+int _puts(int *str)
 {
 	int i;
 	int j;
