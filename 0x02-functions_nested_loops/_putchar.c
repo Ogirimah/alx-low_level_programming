@@ -1,21 +1,13 @@
-#include "main.h"
+#include <unistd.h>
+
 /**
-  * main - Uses putchar() to print to standard output
-  *
-  * @a: The string to be printed
-  *
-  * Return: Integer 0.
-  */
-int callprint(char a[])
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+int _putchar(char c)
 {
-	unsigned long i;
-	char b;
-
-	for (i = 0; i < strlen(a); i++)
-	{
-		b = a[i];
-		putchar(b);
-	}
-
-	return (0);
+	return (write(1, &c, 1));
 }
