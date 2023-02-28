@@ -15,7 +15,7 @@ void rev_string(char *s)
 	strcpy(x, s);
 	while (i >= 0)
 	{
-		x[i] = s[j];
+		s[j] = x[i];
 		i--;
 		j++;
 	}
