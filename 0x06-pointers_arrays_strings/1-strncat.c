@@ -10,7 +10,7 @@
 char *_strncat(char *dest, char *src, int n)
 	{
 	int i, j, k, l;
-	char s[100000000];
+	char s[10000];
 
 	i = strlen(dest);
 	j = strlen(src);
