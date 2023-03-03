@@ -10,11 +10,11 @@
 char *_strncat(char *dest, char *src, int n)
 	{
 	int i, j, k, l;
-	char s[10000];
+	char *s;
 
 	i = strlen(dest);
 	j = strlen(src);
-
+	s = (char *) malloc(sizeof(char) * (i + j));
 	l = 0;
 	for (k = 0; k < i; k++)
 	{
